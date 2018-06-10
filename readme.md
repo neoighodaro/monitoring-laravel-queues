@@ -3,7 +3,13 @@ This is a sample on how you can monitor your Laravel background queues in realti
 
 [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/neoighodaro?utm_source=github&utm_medium=button&utm_term=neoighodaro&utm_campaign=github)
 
+[View tutorial](https://pusher.com/tutorials/monitoring-laravel-background-queues)
+
 ![](https://www.dropbox.com/s/dd2w0m8k77ucra6/Monitoring-Laravel-Background-Queues-in-realtime-using-Pusher.gif?raw=1)
+
+## Getting Started
+
+...
 
 ### Requirements
 - PHP 7.0+ installed on your machine.
