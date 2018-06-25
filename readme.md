@@ -8,8 +8,18 @@ This is a sample on how you can monitor your Laravel background queues in realti
 ![](https://www.dropbox.com/s/dd2w0m8k77ucra6/Monitoring-Laravel-Background-Queues-in-realtime-using-Pusher.gif?raw=1)
 
 ## Getting Started
+- Download or clone the project.
+- Rename the `.env.example` file to `.env`.
+- Update the `PUSHER_APP_*` keys in the `.env` file.
+- Set up a [Mailtrap](https://mailtrap.io) account and update the keys in the `.env` file.
+- Update the `DB_*` keys in the `.env` file so it connects to a database.
+- Open the `config/broadcasting.php` and set the `cluster` for your Pusher application.
+- Run the command `php artisan migrate` to migrate the database.
+- Run the command `npm install` to install the frontend dependencies includine Vue.
+- Run the command `npm run prod` to build our assets.
+- Run the command `php artisan serve` to start the PHP application.
+- In a separate Terminal window, run the command `php artisan queue:listen` to listen for queued events.
 
-...
 
 ### Requirements
 - PHP 7.0+ installed on your machine.
